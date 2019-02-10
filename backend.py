@@ -47,7 +47,7 @@ def update(id, name, surname, year, pesel):
 
 connect()
 #insert("Yomsdx", "Folkdshle", 1993, 93091389999)
-#delete(3)
-update(4, "Monk", "Sref", 1992, 92012304343)
+delete(1)
+# update(4, "Monk", "Sref", 1992, 92012304343)
 print(view())
-print(search(surname="Folkdshle"))
+# print(search(surname="Folkdshle"))
